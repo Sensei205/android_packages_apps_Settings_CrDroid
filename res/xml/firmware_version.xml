@@ -43,6 +43,14 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+		
+    <!-- Crdroid Maintainer -->
+    <Preference
+        android:key="crdroid_maintainer"
+        android:title="@string/crdroid_maintainer"
+        android:summary="@string/name_maintainer"
+        settings:enableCopying="true"
+        settings:searchable="false" />
 
     <!-- Lineage version -->
     <Preference
